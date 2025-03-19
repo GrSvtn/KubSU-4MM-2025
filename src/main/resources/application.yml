@@ -2,7 +2,7 @@ spring:
   application:
     name: "Telegram AI Bot"
   config:
-    import: file: .env[.properties]
+    import: file:.env[.properties]
 
 custom:
   ai:
